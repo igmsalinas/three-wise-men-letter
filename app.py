@@ -9,14 +9,15 @@ import speech_recognition as sr
 from datetime import datetime  
 from queue import Queue  
 from time import sleep   
-from sys import platform 
 import threading
 from silero_vad import load_silero_vad, get_speech_timestamps
 import google.generativeai as genai
 import dotenv
 import warnings
+
 warnings.filterwarnings('ignore')
 
+# Load the Gemini API KEY
 dotenv.load_dotenv('.env')
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 model = genai.GenerativeModel("gemini-1.5-flash")
