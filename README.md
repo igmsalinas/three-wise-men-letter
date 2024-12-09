@@ -7,7 +7,7 @@ High-performance inference of [OpenAI's Whisper](https://github.com/openai/whisp
 First clone the repository:
 
 ```bash
-git clone https://github.com/igmsalinas/three-wise-men.git
+git clone https://github.com/igmsalinas/three-wise-men-letter.git
 ```
 
 Then, download the Whisper model converted in `ggml` format:
