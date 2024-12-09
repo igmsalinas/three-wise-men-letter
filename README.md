@@ -31,7 +31,7 @@ https://apps.apple.com/es/app/xcode/id497799835?l=en-GB&mt=12
 Now create the metal ggml configuration needed:
 
 ```bash
-cd ./gmml/src
+cd ./ggml/src
 # use xcode to create the metal air ggml config
 xcrun -sdk macosx metal    -O3 -c ggml-metal.metal -o ggml-metal.air
 xcrun -sdk macosx metallib        ggml-metal.air   -o default.metallib
