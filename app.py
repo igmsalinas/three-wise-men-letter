@@ -231,4 +231,4 @@ def build_ui():
 async def root():
     build_ui()
 
-ui.run()
+ui.run(reload=False)
