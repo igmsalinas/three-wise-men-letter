@@ -28,7 +28,6 @@ sh ./models/download-ggml-model.sh large-v3-turbo-q5_0
 Now build the main example:
 
 ```bash
-# build the main example
 make
 ```
 
@@ -40,7 +39,6 @@ Now create the metal ggml configuration needed:
 
 ```bash
 cd ./ggml/src
-# use xcode to create the metal air ggml config
 xcrun -sdk macosx metal    -O3 -c ggml-metal.metal -o ggml-metal.air
 xcrun -sdk macosx metallib        ggml-metal.air   -o default.metallib
 ```
@@ -49,12 +47,11 @@ Obtain a free API key from Google to execute Gemini 1.5:
 
 https://ai.google.dev
 
-Create a `.env` file inside the parent directory `./three-wise-men/.env containing the API key .
+Create a `.env` file inside the parent directory `./three-wise-men/.env` containing the API key .
 
 First:
 
 ```bash
-# navigate to the parent dir and create .env file
 cd -
 cd ..
 touch .env
