@@ -21,8 +21,7 @@ Now build the main example:
 
 ```bash
 # build the main example
-cmake -B build
-cmake --build build --config Release
+make
 ```
 
 In MacOS, navigate to the App Store and install XCode:
