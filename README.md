@@ -11,6 +11,13 @@ git clone https://github.com/igmsalinas/three-wise-men-letter.git
 cd three-wise-men-letter
 ```
 
+Initialize the whisper.cpp submodel:
+
+```bash
+git submodule init
+git submodule update
+```
+
 Then, download the Whisper model converted in `ggml` format:
 
 ```bash
