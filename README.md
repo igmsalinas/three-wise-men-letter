@@ -1,6 +1,6 @@
 # three-wise-men
 
-High-performance inference of [OpenAI's Whisper](https://github.com/openai/whisper) automatic speech recognition (ASR) model using ![whisper.cpp](https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-da44-4900-a1de-d0707e75b763.jpeg) for ASR combined with Gemini 1.5 to create letters for the three wise men, MacOS oriented:
+High-performance inference of [OpenAI's Whisper](https://github.com/openai/whisper) automatic speech recognition (ASR) model using [whisper.cpp](https://github.com/ggerganov/whisper.cpp.git) for ASR combined with Gemini 1.5 to create letters for the three wise men, MacOS oriented:
 
 ## Quick start
 
