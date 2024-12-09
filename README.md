@@ -35,6 +35,20 @@ In MacOS, navigate to the App Store and install XCode:
 
 https://apps.apple.com/es/app/xcode/id497799835?l=en-GB&mt=12
 
+Install the XCode tools.
+
+1st Option:
+
+```bash
+xcode-select --install
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+```
+
+2nd Option:
+```bash
+sudo xcodebuild -license
+```
+
 Now create the metal ggml configuration needed:
 
 ```bash
