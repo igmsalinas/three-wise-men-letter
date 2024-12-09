@@ -31,6 +31,16 @@ Now build the main example:
 make
 ```
 
+Brew is needed to install audio dependencies, install it first.
+
+https://brew.sh
+
+Then install `portaudio`:
+
+```bash
+brew install portaudio
+```
+
 In MacOS, navigate to the App Store and install XCode:
 
 https://apps.apple.com/es/app/xcode/id497799835?l=en-GB&mt=12
