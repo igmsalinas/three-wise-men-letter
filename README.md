@@ -8,6 +8,7 @@ First clone the repository:
 
 ```bash
 git clone https://github.com/igmsalinas/three-wise-men-letter.git
+cd three-wise-men-letter
 ```
 
 Then, download the Whisper model converted in `ggml` format:
@@ -41,7 +42,7 @@ Obtain a free API key from Google to execute Gemini 1.5:
 
 https://ai.google.dev
 
-Create a `.env` file inside the parent directory `./three-wise-men/.env containing the following information.
+Create a `.env` file inside the parent directory `./three-wise-men/.env containing the API key .
 
 First:
 
